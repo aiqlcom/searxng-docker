@@ -11,6 +11,12 @@ redis:
 search:
   formats: [html, json]
 engines:
+  - name: bilibili
+    disabled: false
   - name: bing
     disabled: false
+  - name: huggingface
+    disabled: false
+  - name: wikidata
+    timeout: 5.0
 
