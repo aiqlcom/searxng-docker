@@ -7,3 +7,10 @@ server:
   image_proxy: true
 redis:
   url: redis://redis:6379/0
+
+search:
+  formats: [html, json]
+engines:
+  - name: bing
+    disabled: false
+
